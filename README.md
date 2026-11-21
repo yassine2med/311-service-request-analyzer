@@ -1,5 +1,7 @@
 # 311-service-request-analyzer
 
+[![CI](https://github.com/yassine2med/311-service-request-analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/yassine2med/311-service-request-analyzer/actions/workflows/ci.yml) ![Python](https://img.shields.io/badge/python-3.10%2B-3776ab) ![License](https://img.shields.io/badge/license-MIT-8fb08a)
+
 Facility and city service teams need to know which request categories take longest to close and which open requests are getting old. This tool reads a service request CSV and prints, for each category, the count, open count, median and 90th percentile hours to close, and the age of the oldest open request.
 
 ![Screenshot](docs/screenshot.png)
